@@ -1,85 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap');
 
 html{
-font-family: 'Source Code Pro', monospace;
-font-size: 16;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16;
 }
-h1,h2,h3{
+h2,h3{
     font-family: 'Roboto', sans-serif;
+font-size: 18;
 }
 body{
     background-color: lavender;
 }
 .container{
-    background-color:rgb(148, 109, 143)
+    background-color:whitesmoke
 }
 img{
     height: auto;
     width: auto;
     max-width:450px;
     max-height:450px;
-    border-radius: 20;
+
 }
-.container{
+ .container{
     border-style: solid;
     border-width: 12px;
     border-radius: 5px;
     border-color: rgb(197, 153, 184);
     color: black;
-}
+    border-radius: 20%; 
+ }
 a{
  text-decoration: none;
- padding:5px;
+ padding:50px;
  color:black;   
-}
-a:hover{
-    color: chocolate(255, 0, 70);
-}
-.skills{
-  padding-top: 40px;
-}
-.main-content__title projects__title{
-    border-style: solid;
-    border-width: 12px;
-    border-radius: 5px;
-    border-color: rgb(197, 153, 184);
-}
- .project-project{
-    border-style: solid;
-    border-width: 10px;
-    border-radius: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-color: rgb(197, 153, 184);
-    background-color:rgb(148, 109, 143)
-    
-}
-.project-two{
-    border-style: solid;
-    border-width: 10px;
-    border-radius: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-color:  rgb(197, 153, 184);
-    background-color:rgb(148, 109, 143)
-}
 
-.project-three{
+}
+.project-project{
     border-style: solid;
+    text-align: left;
     border-width: 10px;
     border-radius: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border-color:  rgb(197, 153, 184);
-    background-color:rgb(148, 109, 143)
+    border-radius: 30px;
+    border-color: rgb(197, 153, 184);
+    background-color:whitesmoke
+ } 
+.section{
+Padding:5px
+   
 }
+.projects-project{
+    
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding: 10px;
+  }
 .contact{
-    justify-content: center;
+    justify-content:center;
     text-align: center;
     border-style: solid;
     border-color: rgb(148, 15, 115);
     border-width: 12px;
-    border-radius: 5px;
+    border-radius: 50%;
     color: rgb(46, 33, 37);
     background-color:rgb(148, 109, 143)
     }
