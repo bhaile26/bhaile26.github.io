@@ -1,9 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat&display=swap")
+
+html {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+body{
+    background-color: lavender;
+}
+.container{
+    background-color:rgb(148, 109, 143)
+}
 img{
     height: auto;
     width: auto;
-    max-width:500px;
-    max-height:500px;
+    max-width:450px;
+    max-height:450px;
+    border-radius: 20;
 }
-img{
-    border-radius: 15px;
+.container{
+    border-style: solid;
+    border-width: 12px;
+    border-radius: 5px;
+    border-color: rgb(197, 153, 184);
+    color: black;
 }
+a{
+ text-decoration: none;
+ padding:5px;
+ color:black;   
+}
+a:hover{
+    color: chocolate(255, 0, 70);
+}
+.skills{
+  padding-top: 40px;
+}
+.main-content__title projects__title{
+    border-style: solid;
+    border-width: 12px;
+    border-radius: 5px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    border-color: rgb(197, 153, 184);
+}
+ .project-project{
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: rgb(197, 153, 184);
+    background-color:rgb(148, 109, 143)
+    
+}
+.project-two{
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color:  rgb(197, 153, 184);
+    background-color:rgb(148, 109, 143)
+}
+
+.project-three{
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color:  rgb(197, 153, 184);
+    background-color:rgb(148, 109, 143)
+}
+.contact{
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(148, 15, 115);
+    border-width: 12px;
+    border-radius: 5px;
+    color: rgb(46, 33, 37);
+    background-color:rgb(148, 109, 143)
+    }
+
