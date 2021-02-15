@@ -15,9 +15,6 @@ margin: 10px 0;
 display: grid;
 grid-template-columns: 3fr 1fr ;
 }
-.project-project{
-text-align: center;
-}
 .project__articles{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -62,4 +59,5 @@ h3{
 
 footer{
     padding-top: 15px;
+    text-align: center;
 }
