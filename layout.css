@@ -5,7 +5,7 @@
 }
 .container{
     display: grid;
-    grid-template: 100px auto 75px;
+    grid-template: 50px auto 25px;
     margin: 60px;
     grid-template-rows: .5fr 1f 2fr 1f .5fr;
     row-gap: 20px;
@@ -18,7 +18,10 @@ grid-template-columns: 3fr 1fr ;
 .project__articles{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
     gap:10px;
+    float: left;
+
 }
 .about-main{
 padding-bottom: 20px;
@@ -50,6 +53,20 @@ h2{
 h3{
     padding-bottom: 10px;
     padding-top: 10px;
+}
+
+.virtual_img{
+    max-width: 20%;
+    max-height: 20%;
+    text-align: left;
+    padding-right:40px;
+}
+.Review_img{
+    max-width: 40%;
+    max-height: 40%;
+}
+.project__articles{
+    border-radius: 25%;
 }
 
 .project__description{
