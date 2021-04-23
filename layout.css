@@ -61,9 +61,31 @@ h3{
     text-align: left;
     padding-right:40px;
 }
+
+.virtual_img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
 .Review_img{
     max-width: 40%;
     max-height: 40%;
+}
+.Review_img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.donut_img{
+    max-width: 40%;
+    max-height: 30%;
+    
+}
+.donut_img{
+    margin-right: 300px;
+}
+.donut_img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .project__articles{
     border-radius: 25%;

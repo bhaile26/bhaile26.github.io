@@ -19,7 +19,19 @@ img{
     width: auto;
     max-width:450px;
     max-height:450px;
+}
+.donut_img{
+    max-width:250px;
+    max-height:200px ;
 
+}
+.virtual_img{
+    max-width:250px;
+    max-height:200px ;    
+}
+.Review_img{
+   max-width:250px;
+   max-height:200px ;
 }
  .container{
     border-style: solid;
